@@ -33,6 +33,6 @@ subplot(2,2,ii)
 scatter(Y(:,3),Y(:,2));
 title('Flow Duration Curve');
 xlabel('Exceedance Probability');
-ylabel('Flow (MCum)');
+ylabel('Flow (m3/s)');
 title(name{ii})
 end
